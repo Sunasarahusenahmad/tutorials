@@ -1,0 +1,15 @@
+First Create a Folder : Like :--> Desktop
+
+step 1 : npm init -y and install electron with devDependency
+
+step 2 : create a two files first is main.js and second is index.html
+
+step 3 : package.json file must be mentioned "start":"electron .", or "main":"main.js"
+
+step 4 : create build file of the client folder the build command is : npm run build
+
+step 5 : copy client build file into a desktop folder
+
+step 6 : set the path of main.js like :   win.loadFile(path.join(__dirname, "./client", "build", "index.html"));
+
+step 7 : 
